@@ -16,7 +16,7 @@ const cities = [
   'Cuchilla Alta, uru',
   'Molina de Aragón, es',
   'Alaska, can',
-  'Quito, ec',
+  'Cochabamba, bo',
 ];
 
 class App extends Component {
