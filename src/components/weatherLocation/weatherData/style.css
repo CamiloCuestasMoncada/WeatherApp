@@ -1,0 +1,50 @@
+.WeatherDataCont{
+    background-color: rgb(177, 253, 253);
+    width: 100%;
+    height: 90px;
+    line-height: 100px;
+    padding: 5px;
+    box-sizing: border-box; /*para q el padding este al interior del componente*/
+}
+.WeatherTemperatureCont{
+    
+    width: 60%;
+    display: inline-block;
+
+}
+
+.WeatherExtraInfoCont{
+    
+    width: 40%;
+    display: inline-block;
+    line-height: 28px;
+    text-align: left;
+}
+
+.temperature{
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: rgb(0, 90, 112);
+    font-family: 'Roboto', sans-serif;
+}
+.temperatureType{
+    font-weight: bold;
+    color: rgb(0, 53, 83);
+    font-family: 'Roboto', sans-serif;
+}
+
+.extraInfoText{
+    display: block;
+    color: rgb(0, 116, 116);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wicon {
+    color: rgb(0, 217, 255);
+}
+/*.WeatherDataCont.WeatherTemperature.WeatherIcons{
+    background-color: rgb(102, 255, 0);
+}*/
